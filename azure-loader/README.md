@@ -6,8 +6,9 @@ workshop.
 Usage:
 
 ```
-# This is going to ask for the ssh password provided when creating the cluster
-./copy-key.bash vezprem17-ssh.azurehdinsight.net
+# Copy public key to access cluster later. Will prompt for ssh password.
+./copy-key.bash veszprem17-ssh.azurehdinsight.net
 
-
+# Do the actual loading. This will take a while...
+./load-data.bash veszprem17-ssh.azurehdinsight.net
 ```
