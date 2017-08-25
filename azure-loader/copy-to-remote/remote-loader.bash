@@ -11,6 +11,10 @@ wget -q https://s3.eu-central-1.amazonaws.com/hive-workshop/police_data.tar.gz
 tar xzf police_data.tar.gz
 wget -q https://s3.eu-central-1.amazonaws.com/hive-workshop/discogs_20170801_releases_text.tar.gz
 tar xzf discogs_20170801_releases_text.tar.gz
+wget -q https://s3.eu-central-1.amazonaws.com/hive-workshop/discogs_20170801_artists_text.tar.gz
+tar xzf discogs_20170801_artists_text.tar.gz
+wget -q https://s3.eu-central-1.amazonaws.com/hive-workshop/discogs_20170801_labels_text.tar.gz
+tar xzf discogs_20170801_labels_text.tar.gz
 rm *.tar.gz
 
 # Put on HDFS
